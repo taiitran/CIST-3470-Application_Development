@@ -9,6 +9,8 @@ import platform
 # the "locale" module provides information
 # about the computer's regional and language settings.
 import locale
+# the psutil module provides functions to get information about system resources, such as memory usage.
+import psutil
 
 print("My Computer")
 print ("=" * 50)
@@ -47,3 +49,31 @@ print("System Type:", platform.machine())
 # the getlocale() functions returns a tuple.
 # getlocale()[0] gets the first item in this tuple
 print("System Language:", locale.getlocale()[0])
+
+print("\nMemory Information:")
+print("-" * 50)
+# the following function returns/creates an dobject which stores different memory-related data
+memory = psutil.virtual_memory()
+# memory.total gives the total amount of RAM in bytes.
+print("Total Memory:", round(memory.total / (1024 ** 3), 2), "GB")
+# memory.available gives the amount of RAM that is available to use.
+print("Available Memory:", round(memory.available / (1024 ** 3), 2), "GB")
+# memory.used gives the amount of RAM being used.
+print("Used Memory:", round(memory.used / (1024 ** 3), 2), "GB")
+# memory.percent gibes ther percentage of physical memory currently in use.
+print("Memory Usage:", memory.percent, "%")
+# the variablles total, available, used and percent are known as the attributes of the object
+# memory_dict = memory._asdict()
+# print (memory_dict)
+
+print("\nWindows C: Drive Information")
+print("-" * 50)
+# the following function returns/creates an object which stores different disk-related data
+disk = psutil.disk_usage("C:\\")
+# the following attribute gives the total size of the C: drive space in bytes.
+print("Total Disk Space:", round(disk.total / (1024 ** 3), 2), "GB")
+# the following attribute gives how much disk space is still available.
+print("Free Disk Space:", round(disk.free / (1024 ** 3), 2), "GB")
+# the following attribute gives how much disk space is being used.
+print("Used Disk Space:", round(disk.used / (1024 ** 3), 2), "GB")
+print("Disk Usage:", disk.percent, "%")
