@@ -39,11 +39,11 @@ match customer_type:
     case _:
         discount_percent = 0.1
 
-# display the result
+
 
 print()
 
-# Speak the result
+# Speak the result and display the result
 engine.say("Customer type: " + customer_type)
 engine.runAndWait()
 print ("Customer type:", customer_type)
