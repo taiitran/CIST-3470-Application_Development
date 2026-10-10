@@ -53,7 +53,7 @@ message ["To"] = recipient_email
 message ["Subject"] = "Your Chinese Zodiac"
 
 message.set_content(
-    "You were born in" + str(birth_year) + "\n"
+    "You were born in: " + str(birth_year) + "\n"
     + "Your Chinese Zodiac sign is: " + chinese_zodiac
 )
 
