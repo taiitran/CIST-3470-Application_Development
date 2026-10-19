@@ -1,0 +1,29 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code Code Runner temporary files
+tempCodeRunnerFile.py
+tempCodeRunnerFile.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS files
+.DS_Store
+
+# Python test and cache files
+.pytest_cache/
+.mypy_cache/
+
+# Environment files containing private information
+.env
+.env.*
+
+# Files I personally want ignored
+Week 5/chinese_zodiac_v2.py
+Week 5/mortgage_calculator.py
+Week 6/chinese_zodiac_GUI.py
