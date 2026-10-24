@@ -27,3 +27,7 @@ env/
 Week 5/chinese_zodiac_v2.py
 Week 5/mortgage_calculator.py
 Week 6/chinese_zodiac_GUI.py
+
+#vscode settings
+.vscode/
+settings.json
