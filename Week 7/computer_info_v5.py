@@ -8,11 +8,6 @@ import os
 
 from tkinter import messagebox
 
-messagebox.showinfo(
-    "Author: Tai Tran",
-    "Welcome to my Computer!"
-)
-
 # gets the computer information about the memory and drive space
 memory = psutil.virtual_memory()
 
@@ -119,6 +114,11 @@ disk_usage_label = tk.Label(drive_frame, text="Disk Usage:")
 disk_usage_label.grid(row=3, column=0, padx=10, pady=6, sticky="e")
 disk_usage_info = tk.Label(drive_frame, text=str(disk.percent) + "%")
 disk_usage_info.grid(row=3, column=1, padx=10, pady=6, sticky="w")
- 
+
+messagebox.showinfo(
+    "Author: Tai Tran",
+    "Welcome to My Computer!"
+)
+
 
 window.mainloop()
