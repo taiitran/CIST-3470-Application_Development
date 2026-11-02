@@ -1,0 +1,6 @@
+print("********** Welcome to the Pay Calculator *********\n")
+hrs = float(input("Enter hours: "))
+rate = float(input("Enter rate: "))
+pay = round(hrs * rate, 2)
+print()
+print("Pay:", pay)
