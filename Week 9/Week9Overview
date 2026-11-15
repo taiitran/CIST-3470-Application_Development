@@ -1,0 +1,31 @@
+WEEK 9 / 10 (The first half of the week): Visual Basic.NET, Visual Studios, and PYTHON GUIS
+
+Lesson 1: VB.NET, Visual Studios, and GUI
+- We learned how to use a NEW IDE called Visual Studio Community.
+- We learned how to install Visual Studio Community and also Visual Basic.NET
+- We used Visual Studio Community to create Python GUI using the interface and tools provided by Visual Studio. 
+- We created Windows Forms Applications ("WinForm")
+- It allows the user to have an interface where it lets the user interact with the application.
+- It also has controls, where it's interface elements that enable the user-application-interaction.
+- I learned how to configure Visual Studio Community and how to create a Windows Forms Application called "Invoice Total Application".
+- I learned how to add a control, how to navigate the toolbox, how to control properties, setting the Enter and ESC Key Actions, Access Keys, how to rename a file, project, or solution and how to save it.
+
+
+LESSON 2 - Visual Basic.NET and Visual Studio 
+- I learned about the .NET Programming Languages, Visual Basic.NET, C#, F#. and Visual C++.
+- .NET is Microsoft's software development platform.
+- The two main components of .NET are Class Library and Runtime
+- Class Library: contains pre-written code programmer to develop the .NET applications
+- Runtime: Runs and manage .NET applications by providing services such as code execution, memory management, and exception handling.
+  
+
+Lesson 3 - How to code a complete Windows Form Application
+- I learned about the form designers and toolbox windows. 
+- Form Designer: Shows the GUI of a form, and allows you to visually design the GUI of a form.
+- Toolbox: Contains the controls you use to design the GUI and you use the window to add controls to the interface of a form.
+- I learned about the Properties Window
+- Properties: Display the properties and events of a the selectec control, allows you to change the appearance and behavior of the selected control
+- Properties EXs: Name, Text, Font, BackColor
+- I learned how to use the Solution Explorer Window and the Code Editor Window
+- I learned how to create the event-handler for the Calculate button and the event-handler for the Exit Button
+- I learned the different types of source files of the Form (Designer.vb and .vb)
